@@ -32,8 +32,5 @@ def main(args):
         print(f"Your password {password} is found {result} times")
 
 
-main(sys.argv[1:])
-
-
-
-
+if __name__ == "__main__":
+    main(sys.argv[1:])
